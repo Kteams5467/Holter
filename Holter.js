@@ -13,7 +13,7 @@ if (req.url === '/' && req.method === 'GET'){
 if (req.url === '/about' && req.method === 'GET'){
     res.writeHead(200, {'Content-Type': 'text/plain; charset=utf-8'});
 
-    res.end('\nCiao siamo Ibba e Zappia questa è la nostra pagina relativa al tuo Holter!! \n Il tuo Holter funziona grazie a noi.');
+    res.end('\nCiao siamo Ibba e Zappia questa è la nostra pagina relativa al tuo Holter!! \n Il tuo Holter funziona grazie a noi!');
 }
 
 });
